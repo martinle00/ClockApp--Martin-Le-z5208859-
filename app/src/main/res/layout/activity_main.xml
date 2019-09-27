@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sydney"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="20dp"
+                android:background="#EB8A09"
+                android:drawableEnd="@drawable/sydney"
+                android:drawableRight="@drawable/sydney"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/sydtime"
+                android:textColor="#F5EFEF"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <Space
+                android:id="@+id/space6"
+                android:layout_width="0dp"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/newYork"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="20dp"
+                android:background="#EB8A09"
+                android:drawableEnd="@drawable/newyork"
+                android:drawableRight="@drawable/newyork"
+                android:gravity="center"
+                android:text="@string/nytime"
+                android:textColor="#F5EFEF"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:id="@+id/space7"
+                android:layout_width="0dp"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/tokyo"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="20dp"
+                android:background="#EB8A09"
+                android:drawableEnd="@drawable/tokyo"
+                android:drawableRight="@drawable/tokyo"
+                android:gravity="center"
+                android:text="@string/tokyotime"
+                android:textColor="#F5EFEF"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:id="@+id/space8"
+                android:layout_width="0dp"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/london"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#EB8A09"
+                android:drawableEnd="@drawable/london"
+                android:drawableRight="@drawable/london"
+                android:gravity="center"
+                android:text="@string/londontime"
+                android:textColor="#F5EFEF"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:id="@+id/space9"
+                android:layout_width="0dp"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:id="@+id/hongKong"
+                android:layout_width="350dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#EB8A09"
+                android:drawableEnd="@drawable/hongkong"
+                android:drawableRight="@drawable/hongkong"
+                android:gravity="center"
+                android:text="@string/hongkongtime"
+                android:textColor="#F5EFEF"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+            <Space
+                android:id="@+id/space10"
+                android:layout_width="0dp"
+                android:layout_height="45dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/convertTo24"
+        android:layout_width="192dp"
+        android:layout_height="45dp"
+        android:layout_gravity="start"
+        android:onClick="convertTo24"
+        android:text="@string/twentyfourtime"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/convertTo12"
+        android:layout_width="192dp"
+        android:layout_height="45dp"
+        android:layout_gravity="end"
+        android:onClick="convertTo12"
+        android:text="@string/twelvetime"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ClockApp</string>
+
+    <string name="sydtime">
+        <br>
+        Sydney \n</br>
+    </string>
+
+    <string name = "nytime">
+        <br>
+            New York \n</br>
+    </string>
+    <string name = "tokyotime">
+        <br>
+            Tokyo \n</br>
+    </string>
+    <string name = "londontime">
+        <br>
+            London\n</br>
+    </string>
+    <string name = "hongkongtime">
+        <br>
+            Hong Kong \n</br>
+    </string>
+    <string name = "twelvetime">
+        <br>
+            12 HR \n</br>
+    </string>
+    <string name = "twentyfourtime">
+        <br>
+            24 HR \n</br>
+    </string>
+
+
+
+
+</resources>
