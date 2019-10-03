@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");
         sdf.setTimeZone(timezone.getTimeZone("Australia/Sydney"));
         String sydneyTime = sdf.format(sydt);
-        sydney.setText(sydneyTime);
+        sydney.setText("Sydney"+ "\n" +sydneyTime);
 
         //Time in New York
         Date nyt = new Date();
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         SimpleDateFormat nydf = new SimpleDateFormat("HH:mm");
         nydf.setTimeZone(timezone.getTimeZone("America/New_York"));
         String newYorkTime = nydf.format(nyt);
-        newYork.setText(newYorkTime);
+        newYork.setText("New York"+ "\n" + newYorkTime);
 
         //Time in Tokyo
         Date tkt = new Date();
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         SimpleDateFormat tkdf = new SimpleDateFormat("HH:mm");
         tkdf.setTimeZone(timezone.getTimeZone("GMT+9:00"));
         String tokyoTime = tkdf.format(tkt);
-        tokyo.setText(tokyoTime);
+        tokyo.setText("Tokyo"+ "\n" + tokyoTime);
 
         //Time in London
         Date lt = new Date();
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         SimpleDateFormat ldf = new SimpleDateFormat("HH:mm");
         ldf.setTimeZone(timezone.getTimeZone("GMT+1:00"));
         String londonTime = ldf.format(lt);
-        london.setText(londonTime);
+        london.setText("London" + "\n" +londonTime);
 
         //Time in Hong Kong
         Date hkt = new Date();
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         SimpleDateFormat hkdf = new SimpleDateFormat("HH:mm");
         hkdf.setTimeZone(timezone.getTimeZone("GMT+9:00"));
         String hongKongTime = hkdf.format(hkt);
-        hongKong.setText(hongKongTime);
+        hongKong.setText("Hong Kong" + "\n" + hongKongTime);
     }
 
     //Convert time to 12hr
@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
         SimpleDateFormat sdf = new SimpleDateFormat("h:mm a");
         sdf.setTimeZone(timezone.getTimeZone("Australia/Sydney"));
         String sydneyTime = sdf.format(sydt);
-        sydney.setText(sydneyTime);
+        sydney.setText("Sydney"+ "\n" +sydneyTime);
 
         //Time in New York
         Date nyt = new Date();
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
         SimpleDateFormat nydf = new SimpleDateFormat("h:mm a");
         nydf.setTimeZone(timezone.getTimeZone("America/New_York"));
         String newYorkTime = nydf.format(nyt);
-        newYork.setText(newYorkTime);
+        newYork.setText("New York"+ "\n" + newYorkTime);
 
         //Time in Tokyo
         Date tkt = new Date();
@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
         SimpleDateFormat tkdf = new SimpleDateFormat("h:mm a");
         tkdf.setTimeZone(timezone.getTimeZone("GMT+9:00"));
         String tokyoTime = tkdf.format(tkt);
-        tokyo.setText(tokyoTime);
+        tokyo.setText("Tokyo"+ "\n" + tokyoTime);
 
         //Time in London
         Date lt = new Date();
@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
         SimpleDateFormat ldf = new SimpleDateFormat("h:mm a");
         ldf.setTimeZone(timezone.getTimeZone("GMT+1:00"));
         String londonTime = ldf.format(lt);
-        london.setText(londonTime);
+        london.setText("London" + "\n" +londonTime);
 
         //Time in Hong Kong
         Date hkt = new Date();
@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
         SimpleDateFormat hkdf = new SimpleDateFormat("h:mm a");
         hkdf.setTimeZone(timezone.getTimeZone("GMT+9:00"));
         String hongKongTime = hkdf.format(hkt);
-        hongKong.setText(hongKongTime);
+        hongKong.setText("Hong Kong" + "\n" + hongKongTime);
     }
 
 }

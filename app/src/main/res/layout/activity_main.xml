@@ -36,7 +36,6 @@
                 android:drawableEnd="@drawable/sydney"
                 android:drawableRight="@drawable/sydney"
                 android:gravity="center"
-                android:padding="10dp"
                 android:text="@string/sydtime"
                 android:textColor="#F5EFEF"
                 android:textSize="36sp"
